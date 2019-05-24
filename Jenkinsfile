@@ -56,9 +56,4 @@ pipeline {
             }
         }
     }
-
-    post {
-        echo "====++++fin++++===="
-        // post-process activities, e.g. cleanup or publish
-    }
 }
