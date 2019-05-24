@@ -71,8 +71,7 @@ pipeline {
         }
 
 
-         stages {
-        ...
+ 
         stage('Integration tests') {
             steps {
                 echo "-=- execute integration tests -=-"
